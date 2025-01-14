@@ -1,5 +1,7 @@
 # B760_DS3H_AX BIOS Deutsch
 
+**Achtung: Das Benutzen dieser Anleitung geschieht auf eigene Gefahr!!!!!**
+
 • Die in diesem Abschnitt beschriebenen BIOS Einrichtungsmenüs können von den genauen Einstellungen Ihres Motherboards abweichen. </br>Die tatsächlichen BIOS Einrichtungsmenüoptionen, die Sie sehen, hängen von den Spezifikationen des Motherboards und der BIOS Version ab. </br>
 • Einige BIOS Einstellungen sind nur verfügbar, wenn der verwendete Chipsatz des Motherboards und die CPU/der Speicher diese Funktion unterstützen. </br>Weitere Informationen zu den einzigartigen Funktionen von Intel® CPUs finden Sie auf der Intel Website. </br>
 
