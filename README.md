@@ -5,7 +5,7 @@
 
 BIOS (Basic Input and Output System) speichert Hardware-Parameter des Systems im CMOS auf dem Motherboard. Zu seinen Hauptfunktionen gehören die Durchführung des Power-On Self-Test (POST) beim Systemstart, das Speichern von Systemparametern und das Laden des Betriebssystems usw. BIOS enthält ein BIOS-Einrichtungsprogramm, das es dem Benutzer ermöglicht, grundlegende Systemeinstellungen zu ändern oder bestimmte Systemfunktionen zu aktivieren.
 Wenn der Strom ausgeschaltet ist, liefert die Batterie auf dem Motherboard die notwendige Energie, um die Konfigurationswerte im CMOS zu halten.
-Um das BIOS-Einrichtungsprogramm aufzurufen, drücken Sie während des POST beim Einschalten die Taste <Entf> (Delete).
+Um das BIOS-Einrichtungsprogramm aufzurufen, drücken Sie während des POST beim Einschalten die Taste (Entf) (Delete).
 Zum Aktualisieren des BIOS verwenden Sie entweder das GIGABYTE Q-Flash- oder Q-Flash-Plus-Dienstprogramm.
 • Q-Flash ermöglicht es dem Benutzer, das BIOS schnell und einfach zu aktualisieren oder zu sichern, ohne das Betriebssystem zu betreten.
 • Q-Flash Plus ermöglicht es Ihnen, das BIOS zu aktualisieren, wenn Ihr System ausgeschaltet ist (S5-Abschaltzustand). Speichern Sie das neueste BIOS auf einem USB-Stick und stecken Sie ihn in den dafür vorgesehenen Anschluss. Sie können dann das BIOS automatisch durch einfaches Drücken der Q-Flash Plus-Taste flashen.
@@ -20,19 +20,19 @@ Anweisungen zur Verwendung der Q-Flash- und Q-Flash-Plus-Dienstprogramme finden 
 
 Der folgende Startbildschirm mit dem Logo erscheint, wenn der Computer hochfährt. (Der Bildschirm kann je nach Motherboard variieren.)
 Funktionstasten:
-<DEL>: BIOS-SETUP\Q-FLASH
-Drücken Sie die <Entf>-Taste, um das BIOS-Setup aufzurufen oder um das Q-Flash-Dienstprogramm im BIOS-Setup aufzurufen.
-<F12>: BOOT-MENÜ
-Das Boot-Menü ermöglicht es Ihnen, das erste Boot-Gerät ohne den Aufruf des BIOS-Setup einzustellen. Verwenden Sie im Boot-Menü die Pfeiltasten <h> oder <i>, um das erste Boot-Gerät auszuwählen, und drücken Sie dann <Enter>, um zu bestätigen. Das System startet sofort von diesem Gerät.
+(DEL): BIOS-SETUP\Q-FLASH
+Drücken Sie die (Entf)-Taste, um das BIOS-Setup aufzurufen oder um das Q-Flash-Dienstprogramm im BIOS-Setup aufzurufen.
+(F12): BOOT-MENÜ
+Das Boot-Menü ermöglicht es Ihnen, das erste Boot-Gerät ohne den Aufruf des BIOS-Setup einzustellen. Verwenden Sie im Boot-Menü die Pfeiltasten (h) oder (i), um das erste Boot-Gerät auszuwählen, und drücken Sie dann (Enter), um zu bestätigen. Das System startet sofort von diesem Gerät.
 Hinweis: Die Einstellung im Boot-Menü ist nur einmalig wirksam. Nach dem Neustart des Systems basiert die Gerätebootreihenfolge weiterhin auf den BIOS-Setup-Einstellungen.
-<END>: Q-FLASH
-Drücken Sie die <Ende>-Taste, um direkt auf das Q-Flash-Dienstprogramm zuzugreifen, ohne zuerst das BIOS-Setup aufzurufen.
+(END): Q-FLASH
+Drücken Sie die (Ende)-Taste, um direkt auf das Q-Flash-Dienstprogramm zuzugreifen, ohne zuerst das BIOS-Setup aufzurufen.
 
 ## Funktionstasten
 
 Das Hauptmenü
 Erweiterter Modus
-Der erweiterte Modus bietet detaillierte BIOS-Einstellungen. Sie können die Pfeiltasten auf Ihrer Tastatur verwenden, um zwischen den Punkten zu wechseln, und drücken Sie <Enter>, um zu bestätigen oder ein Untermenü aufzurufen. Oder Sie können Ihre Maus verwenden, um den gewünschten Punkt auszuwählen.
+Der erweiterte Modus bietet detaillierte BIOS-Einstellungen. Sie können die Pfeiltasten auf Ihrer Tastatur verwenden, um zwischen den Punkten zu wechseln, und drücken Sie (Enter), um zu bestätigen oder ein Untermenü aufzurufen. Oder Sie können Ihre Maus verwenden, um den gewünschten Punkt auszuwählen.
 Hardware-Informationen
 Optionen Beschreibung Aktuelle Einstellungen
 Einrichtungsmenüs
@@ -42,33 +42,33 @@ Die Schnellzugriffsleiste ermöglicht es Ihnen, schnell zu den Bildschirmen Allg
 
 ## Erweiterter Modus Funktionstasten
 
-<f><g> Bewegen Sie die Auswahlleiste, um ein Einrichtungsmenü auszuwählen.
-<h><i> Bewegen Sie die Auswahlleiste, um ein Konfigurationselement in einem Menü auszuwählen.
-<Enter>/Doppelklick Befehl ausführen oder Menü aufrufen
-<+>/<Seite hoch> Erhöhen Sie den numerischen Wert oder ändern Sie ihn.
-<->/<Seite runter> Verringern Sie den numerischen Wert oder ändern Sie ihn.
-<F1> Zeigt Beschreibungen der Funktionstasten an.
-<F2> Wechseln zum einfachen Modus.
-<F3> Speichern Sie die aktuellen BIOS-Einstellungen in einem Profil.
-<F4> Laden Sie die BIOS-Einstellungen aus einem zuvor erstellten Profil.
-<F5> Stellen Sie die vorherigen BIOS-Einstellungen für die aktuellen Untermenüs wieder her.
-<F6> Zeigt den Smart Fan 6-Bildschirm an.
-<F7> Laden Sie die optimierten BIOS-Standardwerte für die aktuellen Untermenüs.
-<F8> Zugriff auf das Q-Flash-Dienstprogramm.
-<F10> Speichern Sie alle Änderungen und beenden Sie das BIOS-Setup-Programm.
-<F11> Wechseln Sie zum Favoriten-Untermenü.
-<F12> Erfassen Sie den aktuellen Bildschirm als Bild und speichern Sie es auf Ihrem USB-Laufwerk.
-<Einf> Fügen Sie eine Favoritenoption hinzu oder entfernen Sie sie.
-<Strg>+<S> Zeigt Informationen zum installierten Speicher an.
-<Esc> Hauptmenü: Beenden Sie das BIOS-Setup-Programm.
+(f)(g) Bewegen Sie die Auswahlleiste, um ein Einrichtungsmenü auszuwählen.
+(h)(i) Bewegen Sie die Auswahlleiste, um ein Konfigurationselement in einem Menü auszuwählen.
+(Enter)/Doppelklick Befehl ausführen oder Menü aufrufen
+(+)/(Seite hoch) Erhöhen Sie den numerischen Wert oder ändern Sie ihn.
+(-)/(Seite runter) Verringern Sie den numerischen Wert oder ändern Sie ihn.
+(F1) Zeigt Beschreibungen der Funktionstasten an.
+(F2) Wechseln zum einfachen Modus.
+(F3) Speichern Sie die aktuellen BIOS-Einstellungen in einem Profil.
+(F4) Laden Sie die BIOS-Einstellungen aus einem zuvor erstellten Profil.
+(F5) Stellen Sie die vorherigen BIOS-Einstellungen für die aktuellen Untermenüs wieder her.
+(F6) Zeigt den Smart Fan 6-Bildschirm an.
+(F7) Laden Sie die optimierten BIOS-Standardwerte für die aktuellen Untermenüs.
+(F8) Zugriff auf das Q-Flash-Dienstprogramm.
+(F10) Speichern Sie alle Änderungen und beenden Sie das BIOS-Setup-Programm.
+(F11) Wechseln Sie zum Favoriten-Untermenü.
+(F12) Erfassen Sie den aktuellen Bildschirm als Bild und speichern Sie es auf Ihrem USB-Laufwerk.
+(Einf) Fügen Sie eine Favoritenoption hinzu oder entfernen Sie sie.
+(Strg)+(S) Zeigt Informationen zum installierten Speicher an.
+(Esc) Hauptmenü: Beenden Sie das BIOS-Setup-Programm.
 Untermenüs: Beenden Sie das aktuelle Untermenü.
-<Alt>+<F> Geben Sie Schlüsselwörter ein, um das gesuchte BIOS-Konfigurationselement zu finden.
+(Alt)+(F) Geben Sie Schlüsselwörter ein, um das gesuchte BIOS-Konfigurationselement zu finden.
 
 ## B. Einfache Modus
 
-Der einfache Modus ermöglicht es Benutzern, schnell ihre aktuellen Systeminformationen anzuzeigen oder Anpassungen für optimale Leistung vorzunehmen. Im einfachen Modus können Sie Ihre Maus verwenden, um durch die Konfigurationselemente zu navigieren, oder drücken Sie <F2>, um zum erweiterten Modus zu wechseln.
+Der einfache Modus ermöglicht es Benutzern, schnell ihre aktuellen Systeminformationen anzuzeigen oder Anpassungen für optimale Leistung vorzunehmen. Im einfachen Modus können Sie Ihre Maus verwenden, um durch die Konfigurationselemente zu navigieren, oder drücken Sie (F2), um zum erweiterten Modus zu wechseln.
 
-Verwenden Sie die <F6>-Funktionstaste, um schnell zu diesem Bildschirm zu wechseln. Dieser Bildschirm ermöglicht es Ihnen, Lüftergeschwindigkeitseinstellungen für jeden Lüfteranschluss zu konfigurieren oder Ihre System-/CPU-Temperatur zu überwachen.
+Verwenden Sie die (F6)-Funktionstaste, um schnell zu diesem Bildschirm zu wechseln. Dieser Bildschirm ermöglicht es Ihnen, Lüftergeschwindigkeitseinstellungen für jeden Lüfteranschluss zu konfigurieren oder Ihre System-/CPU-Temperatur zu überwachen.
 ### ALLE ABSTIMMEN
 Ermöglicht es Ihnen, die aktuellen Einstellungen auf alle Lüfteranschlüsse anzuwenden.
 ### Temperatur
@@ -76,7 +76,7 @@ Zeigt die aktuelle Temperatur des ausgewählten Zielbereichs an.
 ### Lüftergeschwindigkeit
 Zeigt aktuelle Lüfter-/Pumpengeschwindigkeiten an.
 ### Durchflussrate
-Zeigt die Durchflussrate Ihres Wasserkühlungssystems an. Drücken Sie <Enter> auf Lüftergeschwindigkeit, um zu dieser Funktion zu wechseln.
+Zeigt die Durchflussrate Ihres Wasserkühlungssystems an. Drücken Sie (Enter) auf Lüftergeschwindigkeit, um zu dieser Funktion zu wechseln.
 ### Lüftergeschwindigkeitsregelung
 Ermöglicht es Ihnen, zu bestimmen, ob die Lüftergeschwindigkeitsregelung aktiviert werden soll und die Lüftergeschwindigkeit anzupassen.
 #Normal Ermöglicht es dem Lüfter, bei unterschiedlichen Geschwindigkeiten je nach Temperatur zu laufen. Sie können die Lüftergeschwindigkeit auf der FAN Control-Seite des GIGABYTE Control Center basierend auf Ihren Systemanforderungen einstellen.
@@ -114,7 +114,7 @@ Diese Funktion ermöglicht es Ihnen, die aktuellen Einstellungen in einem Profil
 Diese Funktion ermöglicht es Ihnen, ein zuvor gespeichertes BIOS-Profil zu laden, ohne die BIOS-Einstellungen neu konfigurieren zu müssen. Oder Sie können die Option "Datei auswählen in HDD/FDD/USB" wählen, um ein Profil von Ihrem Speichermedium zu laden.
 
 ### Favoriten (F11)
-Legen Sie Ihre häufig verwendeten Optionen als Favoriten fest und verwenden Sie die <F11>-Taste, um schnell zu der Seite zu wechseln, auf der sich alle Ihre Favoriten befinden. Um eine Favoritenoption hinzuzufügen oder zu entfernen, gehen Sie zur ursprünglichen Seite und drücken Sie <Einfügen> auf der Option. Die Option wird mit einem Sternsymbol markiert, wenn sie als "Favorit" festgelegt ist.
+Legen Sie Ihre häufig verwendeten Optionen als Favoriten fest und verwenden Sie die (F11)-Taste, um schnell zu der Seite zu wechseln, auf der sich alle Ihre Favoriten befinden. Um eine Favoritenoption hinzuzufügen oder zu entfernen, gehen Sie zur ursprünglichen Seite und drücken Sie (Einfügen) auf der Option. Die Option wird mit einem Sternsymbol markiert, wenn sie als "Favorit" festgelegt ist.
 
 ### Tweaker
 ### CPU-Upgrade
@@ -524,7 +524,7 @@ Aktiviert oder deaktiviert IPv6 PXE-Unterstützung. Dieser Punkt ist nur konfigu
 Aktiviert oder deaktiviert HTTP-Boot-Unterstützung für IPv6. Dieser Punkt ist nur konfigurierbar, wenn der Netzwerk-Stack aktiviert ist.
 
 ### PXE boot wait time
-Ermöglicht es Ihnen festzulegen, wie lange Sie warten müssen, bevor Sie <Esc> drücken können, um den PXE-Bootvorgang abzubrechen. Dieser Punkt ist nur konfigurierbar, wenn der Netzwerk-Stack aktiviert ist.
+Ermöglicht es Ihnen festzulegen, wie lange Sie warten müssen, bevor Sie (Esc) drücken können, um den PXE-Bootvorgang abzubrechen. Dieser Punkt ist nur konfigurierbar, wenn der Netzwerk-Stack aktiviert ist.
 
 ### Media detect count
 Ermöglicht es Ihnen, die Anzahl der Überprüfungen des Vorhandenseins von Medien festzulegen. Dieser Punkt ist nur konfigurierbar, wenn der Netzwerk-Stack aktiviert ist.
@@ -607,7 +607,7 @@ Aktiviert oder deaktiviert die Intel® Virtualization Technology für Directed I
 Aktiviert oder deaktiviert das Trusted Platform Module (TPM).
 
 ### Option Search (Hot Key: Alt-F)
-Dieser Bildschirm ermöglicht es Ihnen, Stichwörter (nur Englisch) einzugeben, um die gesuchte BIOS-Option zu finden. Drücken Sie <Alt> und <F>, um den Optionssuchbildschirm aufzurufen. Geben Sie die Stichwörter in das Suchfeld ein und drücken Sie <Enter> oder klicken Sie auf Suchen.
+Dieser Bildschirm ermöglicht es Ihnen, Stichwörter (nur Englisch) einzugeben, um die gesuchte BIOS-Option zu finden. Drücken Sie (Alt) und (F), um den Optionssuchbildschirm aufzurufen. Geben Sie die Stichwörter in das Suchfeld ein und drücken Sie (Enter) oder klicken Sie auf Suchen.
 
 ### Reset Case Open Status
 - **Deaktiviert**: Behält oder löscht den Eintrag des vorherigen Gehäuseeinbruchstatus.
@@ -631,10 +631,10 @@ Zeigt den aktuellen Zugriffsebenenstatus an, abhängig von der verwendeten Passw
 Wählt die Standardsprache, die vom BIOS verwendet wird.
 
 ### System Date
-Stellt das Systemdatum ein. Das Datumsformat ist Woche (schreibgeschützt), Monat, Datum und Jahr. Verwenden Sie <Enter>, um zwischen den Feldern Monat, Datum und Jahr zu wechseln und verwenden Sie die <Page Up> oder <Page Down>-Taste, um den gewünschten Wert einzustellen.
+Stellt das Systemdatum ein. Das Datumsformat ist Woche (schreibgeschützt), Monat, Datum und Jahr. Verwenden Sie (Enter), um zwischen den Feldern Monat, Datum und Jahr zu wechseln und verwenden Sie die (Page Up) oder (Page Down)-Taste, um den gewünschten Wert einzustellen.
 
 ### System Time
-Stellt die Systemzeit ein. Das Zeitformat ist Stunde, Minute und Sekunde. Zum Beispiel, 13:00:00 für 1 Uhr nachmittags. Verwenden Sie <Enter>, um zwischen den Feldern Stunde, Minute und Sekunde zu wechseln und verwenden Sie die <Page Up> oder <Page Down>-Taste, um den gewünschten Wert einzustellen.
+Stellt die Systemzeit ein. Das Zeitformat ist Stunde, Minute und Sekunde. Zum Beispiel, 13:00:00 für 1 Uhr nachmittags. Verwenden Sie (Enter), um zwischen den Feldern Stunde, Minute und Sekunde zu wechseln und verwenden Sie die (Page Up) oder (Page Down)-Taste, um den gewünschten Wert einzustellen.
 
 ### Plug in Devices Info
 Zeigt Informationen über Ihre installierten PCI Express- und M.2-Geräte an.
@@ -720,10 +720,10 @@ Ermöglicht es Ihnen auszuwählen, ob das UEFI- oder Legacy-Option-ROM für den 
 Dieser Punkt ist nur konfigurierbar, wenn die CSM-Unterstützung auf Enabled gesetzt ist.
 
 ### Administrator-Passwort
-Ermöglicht es Ihnen, ein Administrator-Passwort zu konfigurieren. Drücken Sie <Enter> auf diesem Punkt, geben Sie das Passwort ein und drücken Sie dann <Enter>. Sie werden aufgefordert, das Passwort zu bestätigen. Geben Sie das Passwort erneut ein und drücken Sie <Enter>. Sie müssen das Administrator-Passwort (oder das Benutzer-Passwort) beim Systemstart und beim Aufrufen des BIOS-Setups eingeben. Das Administrator-Passwort ermöglicht Ihnen im Gegensatz zum Benutzer-Passwort, Änderungen an allen BIOS-Einstellungen vorzunehmen. Passwort entfernen altes Administrator-Passwort eingeben und neues leer lassen.
+Ermöglicht es Ihnen, ein Administrator-Passwort zu konfigurieren. Drücken Sie (Enter) auf diesem Punkt, geben Sie das Passwort ein und drücken Sie dann (Enter). Sie werden aufgefordert, das Passwort zu bestätigen. Geben Sie das Passwort erneut ein und drücken Sie (Enter). Sie müssen das Administrator-Passwort (oder das Benutzer-Passwort) beim Systemstart und beim Aufrufen des BIOS-Setups eingeben. Das Administrator-Passwort ermöglicht Ihnen im Gegensatz zum Benutzer-Passwort, Änderungen an allen BIOS-Einstellungen vorzunehmen. Passwort entfernen altes Administrator-Passwort eingeben und neues leer lassen.
 
 ### Benutzer-Passwort
-Ermöglicht es Ihnen, ein Benutzer-Passwort zu konfigurieren. Drücken Sie <Enter> auf diesem Punkt, geben Sie das Passwort ein und drücken Sie dann <Enter>. Sie werden aufgefordert, das Passwort zu bestätigen. Geben Sie das Passwort erneut ein und drücken Sie <Enter>. Sie müssen das Administrator-Passwort (oder das Benutzer-Passwort) beim Systemstart und beim Aufrufen des BIOS-Setups eingeben. Das Benutzer-Passwort ermöglicht jedoch nur Änderungen an bestimmten BIOS-Einstellungen, nicht an allen. Um das Passwort zu löschen, drücken Sie <Enter> auf dem Passwortfeld und geben das korrekte Passwort ein, wenn Sie dazu aufgefordert werden. Wenn Sie zur Eingabe eines neuen Passworts aufgefordert werden, drücken Sie <Enter>, ohne ein Passwort einzugeben. Drücken Sie erneut <Enter>, um zu bestätigen.
+Ermöglicht es Ihnen, ein Benutzer-Passwort zu konfigurieren. Drücken Sie (Enter) auf diesem Punkt, geben Sie das Passwort ein und drücken Sie dann (Enter). Sie werden aufgefordert, das Passwort zu bestätigen. Geben Sie das Passwort erneut ein und drücken Sie (Enter). Sie müssen das Administrator-Passwort (oder das Benutzer-Passwort) beim Systemstart und beim Aufrufen des BIOS-Setups eingeben. Das Benutzer-Passwort ermöglicht jedoch nur Änderungen an bestimmten BIOS-Einstellungen, nicht an allen. Um das Passwort zu löschen, drücken Sie (Enter) auf dem Passwortfeld und geben das korrekte Passwort ein, wenn Sie dazu aufgefordert werden. Wenn Sie zur Eingabe eines neuen Passworts aufgefordert werden, drücken Sie (Enter), ohne ein Passwort einzugeben. Drücken Sie erneut (Enter), um zu bestätigen.
 Hinweis: Stellen Sie sicher, dass das Administrator-Passwort zuerst festgelegt wird, bevor Sie das Benutzer-Passwort festlegen. Passwort entfernen altes Benutzer-Passwort eingeben und neues leer lassen.
 
 ### Secure Boot
@@ -733,12 +733,12 @@ Ermöglicht es Ihnen, Secure Boot zu aktivieren oder zu deaktivieren und verwand
 Ermöglicht es Ihnen auszuwählen, ob Sie den einfachen Modus oder den erweiterten Modus nach dem Aufrufen des BIOS-Setups betreten. Auto wechselt zu dem Modus, der zuletzt verwendet wurde.
 
 ### Speichern # Beenden
-- **Save # Exit Setup**: Drücken Sie <Enter> auf diesem Punkt und wählen Sie Ja. Dadurch werden die Änderungen im CMOS gespeichert und das BIOS-Setup-Programm verlassen. Wählen Sie Nein oder drücken Sie <Esc>, um zum Hauptmenü des BIOS-Setups zurückzukehren.
-- **Exit Without Saving**: Drücken Sie <Enter> auf diesem Punkt und wählen Sie Ja. Dadurch wird das BIOS-Setup-Programm ohne Speichern der vorgenommenen Änderungen im CMOS verlassen. Wählen Sie Nein oder drücken Sie <Esc>, um zum Hauptmenü des BIOS-Setups zurückzukehren.
-- **Load Optimized Defaults**: Drücken Sie <Enter> auf diesem Punkt und wählen Sie Ja, um die optimalen BIOS-Standardeinstellungen zu laden. Die BIOS-Standardeinstellungen helfen dem System, im optimalen Zustand zu arbeiten. Laden Sie immer die optimierten Standardeinstellungen nach dem Aktualisieren des BIOS oder nach dem Löschen der CMOS-Werte.
-- **Boot Override**: Ermöglicht es Ihnen, ein Gerät auszuwählen, von dem sofort gebootet werden soll. Drücken Sie <Enter> auf dem ausgewählten Gerät und wählen Sie Ja zur Bestätigung. Ihr System wird automatisch neu gestartet und von diesem Gerät gebootet.
-- **Save Profiles**: Diese Funktion ermöglicht es Ihnen, die aktuellen BIOS-Einstellungen in einem Profil zu speichern. Sie können bis zu 8 Profile erstellen und als Setup-Profil 1 bis Setup-Profil 8 speichern. Drücken Sie <Enter>, um abzuschließen. Oder Sie können "Datei auswählen in HDD/FDD/USB" auswählen, um das Profil auf Ihrem Speichermedium zu speichern.
-- **Load Profiles**: Wenn Ihr System instabil wird und Sie die BIOS-Standardeinstellungen geladen haben, können Sie diese Funktion verwenden, um die BIOS-Einstellungen aus einem zuvor erstellten Profil zu laden, ohne die BIOS-Einstellungen erneut konfigurieren zu müssen. Wählen Sie zuerst das Profil aus, das Sie laden möchten, und drücken Sie dann <Enter>, um abzuschließen. Sie können "Datei auswählen in HDD/FDD/USB" wählen, um das zuvor erstellte Profil von Ihrem Speichermedium zu laden oder das Profil automatisch zu laden, das von dem BIOS erstellt wurde, z. B. das Zurücksetzen der BIOS-Einstellungen auf die letzten Einstellungen, die ordnungsgemäß funktioniert haben (bekanntermaßen guter Zustand).
+- **Save # Exit Setup**: Drücken Sie (Enter) auf diesem Punkt und wählen Sie Ja. Dadurch werden die Änderungen im CMOS gespeichert und das BIOS-Setup-Programm verlassen. Wählen Sie Nein oder drücken Sie (Esc), um zum Hauptmenü des BIOS-Setups zurückzukehren.
+- **Exit Without Saving**: Drücken Sie (Enter) auf diesem Punkt und wählen Sie Ja. Dadurch wird das BIOS-Setup-Programm ohne Speichern der vorgenommenen Änderungen im CMOS verlassen. Wählen Sie Nein oder drücken Sie (Esc), um zum Hauptmenü des BIOS-Setups zurückzukehren.
+- **Load Optimized Defaults**: Drücken Sie (Enter) auf diesem Punkt und wählen Sie Ja, um die optimalen BIOS-Standardeinstellungen zu laden. Die BIOS-Standardeinstellungen helfen dem System, im optimalen Zustand zu arbeiten. Laden Sie immer die optimierten Standardeinstellungen nach dem Aktualisieren des BIOS oder nach dem Löschen der CMOS-Werte.
+- **Boot Override**: Ermöglicht es Ihnen, ein Gerät auszuwählen, von dem sofort gebootet werden soll. Drücken Sie (Enter) auf dem ausgewählten Gerät und wählen Sie Ja zur Bestätigung. Ihr System wird automatisch neu gestartet und von diesem Gerät gebootet.
+- **Save Profiles**: Diese Funktion ermöglicht es Ihnen, die aktuellen BIOS-Einstellungen in einem Profil zu speichern. Sie können bis zu 8 Profile erstellen und als Setup-Profil 1 bis Setup-Profil 8 speichern. Drücken Sie (Enter), um abzuschließen. Oder Sie können "Datei auswählen in HDD/FDD/USB" auswählen, um das Profil auf Ihrem Speichermedium zu speichern.
+- **Load Profiles**: Wenn Ihr System instabil wird und Sie die BIOS-Standardeinstellungen geladen haben, können Sie diese Funktion verwenden, um die BIOS-Einstellungen aus einem zuvor erstellten Profil zu laden, ohne die BIOS-Einstellungen erneut konfigurieren zu müssen. Wählen Sie zuerst das Profil aus, das Sie laden möchten, und drücken Sie dann (Enter), um abzuschließen. Sie können "Datei auswählen in HDD/FDD/USB" wählen, um das zuvor erstellte Profil von Ihrem Speichermedium zu laden oder das Profil automatisch zu laden, das von dem BIOS erstellt wurde, z. B. das Zurücksetzen der BIOS-Einstellungen auf die letzten Einstellungen, die ordnungsgemäß funktioniert haben (bekanntermaßen guter Zustand).
 
 ## Diverse Windows Funktionen
 * Festplatten von gpt oder mbr ändern.
@@ -799,12 +799,12 @@ Benutzer müssen Benutzernamen und Kennwort eingeben: dort den Haken weg machen
 Das funktioniert bei Windows 11 nicht.
 
 ## Windows ab 8 ohne Datenverlust reparieren.
-* Windows Konsole starten als Administrator mit Win + X -> Eingabeaufforderung Administrator.
+* Windows Konsole starten als Administrator mit Win + X -) Eingabeaufforderung Administrator.
 sfc /scannow * Fehler suchen und Reparieren
 sfc /ferifyonly * Nur Fehler suchen
 
 ## Image auf Komponentenspeicherbeschädigungen durchsuchen und Reparieren.
-* Windows Konsole starten als Administrator mit Win + X -> Eingabeaufforderung Administrator.
+* Windows Konsole starten als Administrator mit Win + X -) Eingabeaufforderung Administrator.
 
 ## auf Komponentenspeicherbeschädigungen durchsuchen
 Dism /Online /Cleanup-Image /ScanHealth
