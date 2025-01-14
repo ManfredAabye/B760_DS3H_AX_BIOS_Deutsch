@@ -24,7 +24,7 @@ Anweisungen zur Verwendung der Q Flash  und Q Flash Plus Dienstprogramme finden 
 
 ### Startbildschirm
 
-Der folgende Startbildschirm mit dem Logo erscheint, wenn der Computer hochfährt. </br>(Der Bildschirm kann je nach Motherboard variieren. </br>)
+Der folgende Startbildschirm mit dem Logo erscheint, wenn der Computer hochfährt. </br>(Der Bildschirm kann je nach Motherboard variieren. )
 Funktionstasten:
 
 * (DEL): BIOS SETUP\Q FLASH
@@ -199,7 +199,7 @@ Ermöglicht es Ihnen, das minimale CPU Uncore Verhältnis festzulegen. </br>Der 
 ### IGP Verhältnis
 
 Ermöglicht es Ihnen, das Grafikverhältnis festzulegen. </br>
-Ob das System stabil mit den von Ihnen vorgenommenen Overclock /Überspannungseinstellungen funktioniert, hängt von Ihren gesamten Systemkonfigurationen ab. </br>Falsches Overclocking/Überspannung kann zu Schäden an CPU, Chipsatz oder Speicher führen und die Lebensdauer dieser Komponenten verkürzen. </br>Diese Seite ist nur für fortgeschrittene Benutzer und wir empfehlen, die Standardeinstellungen nicht zu ändern, um Systeminstabilität oder andere unerwartete Ergebnisse zu vermeiden. </br>(Unzureichendes Ändern der Einstellungen kann dazu führen, dass das System nicht startet. </br>Wenn dies auftritt, löschen Sie die CMOS Werte und setzen Sie das Board auf die Standardwerte zurück. </br>)
+Ob das System stabil mit den von Ihnen vorgenommenen Overclock /Überspannungseinstellungen funktioniert, hängt von Ihren gesamten Systemkonfigurationen ab. </br>Falsches Overclocking/Überspannung kann zu Schäden an CPU, Chipsatz oder Speicher führen und die Lebensdauer dieser Komponenten verkürzen. </br>Diese Seite ist nur für fortgeschrittene Benutzer und wir empfehlen, die Standardeinstellungen nicht zu ändern, um Systeminstabilität oder andere unerwartete Ergebnisse zu vermeiden. </br>(Unzureichendes Ändern der Einstellungen kann dazu führen, dass das System nicht startet. </br>Wenn dies auftritt, löschen Sie die CMOS Werte und setzen Sie das Board auf die Standardwerte zurück. )
 
 Einige BIOS Einstellungen sind nur verfügbar, wenn der verwendete Chipsatz des Motherboards und die CPU/der Speicher diese Funktion unterstützen. </br>Weitere Informationen zu den einzigartigen Funktionen von Intel® CPUs finden Sie auf der Intel Website. </br>
 
@@ -388,7 +388,7 @@ Auto lässt das BIOS diese Einstellung automatisch konfigurieren. </br>
 
 Ermöglicht es Ihnen, zwischen Profilen zu wählen, die für bestimmte Speicher IC Hersteller erstellt wurden, um die Speicherleistung zu verbessern. </br>
 
-### Extreme Memory Profile (X. </br>M. </br>P. </br>)
+### Extreme Memory Profile (X.M.P.)
 
 Ermöglicht es dem BIOS, die SPD Daten des installierten XMP Speichermoduls zu lesen, um die Speicherleistung zu verbessern, wenn aktiviert. </br>
 
@@ -402,7 +402,7 @@ Verwendet die Einstellungen von Profil 1. </br>
 
 ### Profil 2
 
-Verwendet die Einstellungen von Profil 2. </br>(Nur verfügbar, wenn ein Speicher Modul installiert ist, das diese Funktion unterstützt. </br>)
+Verwendet die Einstellungen von Profil 2. </br>(Nur verfügbar, wenn ein Speicher Modul installiert ist, das diese Funktion unterstützt. )
 
 ### System Memory Multiplier
 
@@ -420,7 +420,7 @@ Ermöglicht es Ihnen, das maximale OC Frequenzpotenzial zu verbessern. </br>
 
 Bietet Methoden zur Speichererkennung und  initialisierung. </br>
   **Auto**: Lässt das BIOS diese Einstellung automatisch konfigurieren. </br>
-  **Normal**: Das BIOS führt die Speicherinitialisierung automatisch durch. </br>Bitte beachten Sie, dass, wenn das System instabil wird oder nicht bootet, versuchen Sie, die CMOS Werte zu löschen und das Board auf die Standardeinstellungen zurückzusetzen. </br>(Informationen zum Löschen der CMOS Werte finden Sie in Kapitel 2 des Benutzerhandbuchs bei den Anweisungen zum Batterie /CMOS Jumper/Schalter. </br>)
+  **Normal**: Das BIOS führt die Speicherinitialisierung automatisch durch. </br>Bitte beachten Sie, dass, wenn das System instabil wird oder nicht bootet, versuchen Sie, die CMOS Werte zu löschen und das Board auf die Standardeinstellungen zurückzusetzen. </br>(Informationen zum Löschen der CMOS Werte finden Sie in Kapitel 2 des Benutzerhandbuchs bei den Anweisungen zum Batterie /CMOS Jumper/Schalter. )
   **Enable Fast Boot**: Überspringt die Speichererkennung und  initialisierung nach bestimmten Kriterien für einen schnelleren Speicherstart. </br>
   **Disable Fast Boot**: Erkennen und initialisieren Sie den Speicher bei jedem Bootvorgang. </br>
 
@@ -819,7 +819,7 @@ Dieser Abschnitt bietet Informationen über Ihr Motherboard Modell und die BIOS 
 
 ### Access Level
 
-Zeigt den aktuellen Zugriffsebenenstatus an, abhängig von der verwendeten Passwortschutzart. </br>(Wenn kein Passwort festgelegt ist, wird standardmäßig Administrator angezeigt. </br>) Die Administrator Ebene ermöglicht es Ihnen, Änderungen an allen BIOS Einstellungen vorzunehmen; die Benutzerebene erlaubt nur Änderungen an bestimmten BIOS Einstellungen. </br>
+Zeigt den aktuellen Zugriffsebenenstatus an, abhängig von der verwendeten Passwortschutzart. </br>(Wenn kein Passwort festgelegt ist, wird standardmäßig Administrator angezeigt. ) Die Administrator Ebene ermöglicht es Ihnen, Änderungen an allen BIOS Einstellungen vorzunehmen; die Benutzerebene erlaubt nur Änderungen an bestimmten BIOS Einstellungen. </br>
 
 ### System Language
 
