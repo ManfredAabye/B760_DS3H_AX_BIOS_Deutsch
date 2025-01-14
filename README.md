@@ -31,7 +31,7 @@ Funktionstasten:
 Drücken Sie die (Entf) Taste, um das BIOS Setup aufzurufen oder um das Q Flash Dienstprogramm im BIOS Setup aufzurufen.
 
 * (F12): BOOT MENÜ
-Das Boot Menü ermöglicht es Ihnen, das erste Boot Gerät ohne den Aufruf des BIOS Setup einzustellen.Verwenden Sie im Boot Menü die Pfeiltasten (h) oder (i), um das erste Boot Gerät auszuwählen, und drücken Sie dann 
+Das Boot Menü ermöglicht es Ihnen, das erste Boot Gerät ohne den Aufruf des BIOS Setup einzustellen.Verwenden Sie im Boot Menü die Pfeiltasten (h) oder (i), um das erste Boot Gerät auszuwählen, und drücken Sie dann
 
 * (Enter), um zu bestätigen.Das System startet sofort von diesem Gerät.
 Hinweis: Die Einstellung im Boot Menü ist nur einmalig wirksam.Nach dem Neustart des Systems basiert die Gerätebootreihenfolge weiterhin auf den BIOS Setup Einstellungen.
@@ -289,25 +289,31 @@ Aktiviert oder deaktiviert den Core Fast V Mode.
 
 Aktiviert oder deaktiviert die Unterspannungsschutzfunktion.
 
-### AVX Einstellungen
+## AVX Einstellungen
 
-Ermöglicht es Ihnen, AVX bezogene Einstellungen zu konfigurieren.Auto stellt die Einstellungen entsprechend den CPU Spezifikationen ein.
+**Advanced Vector Extensions (AVX)** sind Erweiterungen der x86-Befehlssätze, die speziell entwickelt wurden, um die Leistung von Anwendungen zu verbessern, die intensive Rechenaufgaben ausführen. Dazu gehören wissenschaftliche Berechnungen, 3D-Modellierung, Video-Rendering und andere datenintensive Aufgaben. AVX ermöglicht es Prozessoren, gleichzeitig mit mehreren Datenpunkten zu arbeiten, was zu erheblichen Leistungssteigerungen führt.
+
+### Konfiguration der AVX-Einstellungen im BIOS
+
+Im BIOS können Sie AVX-bezogene Funktionen aktivieren oder deaktivieren. Wenn die AVX-Einstellungen aktiviert sind, konfiguriert das System diese automatisch gemäß den Spezifikationen Ihrer CPU. Dies stellt sicher, dass die AVX-Instruktionen von Ihrer CPU unterstützt und optimal genutzt werden.
 
 ### AVX
 
-Ermöglicht es Ihnen, die AVX Befehlssätze auf einer CPU, die AVX unterstützt, zu deaktivieren.Dieser Punkt ist nur konfigurierbar, wenn AVX Einstellungen auf Benutzerdefiniert gesetzt ist.
+Diese Einstellung ermöglicht es Ihnen, die AVX-Befehlssätze auf einer CPU, die AVX unterstützt, zu deaktivieren. Beachten Sie, dass diese Option nur verfügbar ist, wenn die AVX-Einstellungen auf Benutzerdefiniert gesetzt sind.
 
 ### AVX Offset
 
-Wenn der Prozessor AVX Workloads ausführt, wird das CPU Taktverhältnis um den gewünschten AVX Offset Wert reduziert.Zum Beispiel, wenn der Wert auf 3 gesetzt ist, wird das CPU Taktverhältnis beim Ausführen von AVX Befehlen um 3 reduziert.
+Der AVX Offset ist eine Einstellung, die das CPU-Taktverhältnis reduziert, wenn der Prozessor AVX-Workloads ausführt. Zum Beispiel, wenn der Offset-Wert auf 3 gesetzt ist, wird das CPU-Taktverhältnis beim Ausführen von AVX-Befehlen um 3 reduziert. Dies kann hilfreich sein, um die thermische Belastung der CPU zu reduzieren und die Systemstabilität zu gewährleisten.
 
 ### AVX Optimum
 
-Ermöglicht es Ihnen, die AVX Befehle zu optimieren.
+Diese Einstellung ermöglicht es Ihnen, die AVX-Befehle zu optimieren. Dies bedeutet, dass die CPU-Performance für AVX-Workloads angepasst wird, um eine bessere Effizienz und Leistung zu erzielen.
 
 ### AVX Voltage Guardband Scale Factor
 
-Ermöglicht es Ihnen, die Standard AVX Spannung zu senken.
+Diese Einstellung ermöglicht es Ihnen, die Standard-AVX-Spannung zu senken. Eine niedrigere Spannung kann dazu beitragen, die Leistungsaufnahme zu reduzieren und die thermische Belastung der CPU zu minimieren.
+
+Mit diesen Einstellungen können Sie die Leistung und Effizienz Ihrer CPU für AVX-intensive Anwendungen optimieren und anpassen.
 
 ### Aktive Turbo Verhältnisse
 
@@ -333,9 +339,9 @@ Ermöglicht es Ihnen, auszuwählen, welcher CPU Kern aktiviert werden soll.Die A
 
 Ermöglicht es Ihnen festzulegen, ob die HT Funktion für jeden CPU Kern deaktiviert werden soll.Dieser Punkt ist nur konfigurierbar, wenn die Per Core HT Deaktivierungseinstellungen auf Manuell gesetzt sind.
 
-### C States Steuerung
+## C States Steuerung
 
-Ermöglicht es Ihnen, die C States Steuerung zu aktivieren oder zu deaktivieren.
+C-States sind Energiesparmodi für die CPU, die darauf abzielen, den Energieverbrauch zu reduzieren, wenn die CPU nicht voll ausgelastet ist. Jeder C-State repräsentiert einen unterschiedlichen Grad an Energieeinsparung und Inaktivität. Die Aktivierung und Deaktivierung der C-States-Steuerung im BIOS ermöglicht es Ihnen, das Verhalten der CPU in Bezug auf Energieeinsparung und Leistung zu steuern.
 
 ### CPU Enhanced Halt (C1E)
 
@@ -375,7 +381,8 @@ Ermöglicht es Ihnen, die Grenze für jeden CPU Kern separat zu steuern.
 
 ### DDR5 Auto Booster
 
-Aktiviert oder deaktiviert die DDR5 Dynamic Turbo Boost Funktion, die ein automatisches Umschalten zwischen Standardfrequenz und erhöhter Frequenz ermöglicht.Auto lässt das BIOS diese Einstellung automatisch konfigurieren.
+Aktiviert oder deaktiviert die DDR5 Dynamic Turbo Boost Funktion, die ein automatisches Umschalten zwischen Standardfrequenz und erhöhter Frequenz ermöglicht.
+Auto lässt das BIOS diese Einstellung automatisch konfigurieren.
 
 ### DDR5 XMP Booster
 
