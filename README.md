@@ -730,7 +730,7 @@ Ermöglicht es Ihnen, die Anzahl der Überprüfungen des Vorhandenseins von Medi
 
 ### NVMe Configuration
 
-Zeigt Informationen über Ihre installierte M. </br>2 NVMe PCIe SSD an. </br>
+Zeigt Informationen über Ihre installierte M2 NVMe PCIe SSD an. </br>
 
 ## SATA Configuration
 
@@ -758,7 +758,7 @@ Aktiviert oder deaktiviert die Unterstützung für externe SATA Geräte. </br>
 
 ### VMD setup menu
 
-Ermöglicht es Ihnen, die VMD Controller zu konfigurieren. </br>Um RAID Konfigurationen zu erstellen, setzen Sie den VMD Controller auf Aktiviert und setzen Sie die globale VMD Zuordnung auf Deaktiviert. </br>Je nach verwendeten SATA/M. </br>2 Anschlüssen setzen Sie den entsprechenden Punkt "Diesen Root Port unter VMD zuordnen" auf Aktiviert. </br>Bitte navigieren Sie zur Seite "Erstellen eines RAID Sets" auf der GIGABYTE Website für Anweisungen zur Konfiguration eines RAID Arrays. </br>
+Ermöglicht es Ihnen, die VMD Controller zu konfigurieren. </br>Um RAID Konfigurationen zu erstellen, setzen Sie den VMD Controller auf Aktiviert und setzen Sie die globale VMD Zuordnung auf Deaktiviert. </br>Je nach verwendeten SATA/M2 Anschlüssen setzen Sie den entsprechenden Punkt "Diesen Root Port unter VMD zuordnen" auf Aktiviert. </br>Bitte navigieren Sie zur Seite "Erstellen eines RAID Sets" auf der GIGABYTE Website für Anweisungen zur Konfiguration eines RAID Arrays. </br>
 
 ### Ethernet Controller / PCIe GBE Family Controller
 
@@ -838,7 +838,7 @@ Dieser Bildschirm ermöglicht es Ihnen, Stichwörter (nur Englisch) einzugeben, 
 
 Zeigt den Erkennungsstatus des am CI Anschluss des Motherboards angeschlossenen Gehäuseeinbrucherkennungsgeräts an. </br>Wenn die Gehäuseabdeckung des Systems entfernt wird, zeigt dieses Feld "Yes" an, andernfalls "No". </br>Um den Gehäuseeinbruchstatus zu löschen, setzen Sie "Reset Case Open Status" auf Aktiviert, speichern Sie die Einstellungen im CMOS und starten Sie dann Ihr System neu. </br>
 
-### CPU Vcore/CPU VCCIN AUX/CPU VCCSA/VDD2 CPU/PCH1. </br>8V/+3. </br>3V/+5V/PCH 0. </br>82V/+12V/CPU VAXG
+### CPU Vcore/CPU VCCIN AUX/CPU VCCSA/VDD2 CPU/PCH1.8V/+3.3V/+5V/PCH 0.82V/+12V/CPU VAXG
 
 Zeigt die aktuellen Systemspannungen an. </br>Die angezeigten Punkte und Werte können je nach Chipsatz des Motherboards und der verwendeten CPU variieren. </br>
 
@@ -866,7 +866,7 @@ Stellt die Systemzeit ein. </br>Das Zeitformat ist Stunde, Minute und Sekunde. <
 
 ### Plug in Devices Info
 
-Zeigt Informationen über Ihre installierten PCI Express  und M. </br>2 Geräte an. </br>
+Zeigt Informationen über Ihre installierten PCI Express  und M.2 Geräte an. </br>
 
 ### Q Flash
 
@@ -984,99 +984,138 @@ Ermöglicht es Ihnen, Secure Boot zu aktivieren oder zu deaktivieren und verwand
 
 Ermöglicht es Ihnen auszuwählen, ob Sie den einfachen Modus oder den erweiterten Modus nach dem Aufrufen des BIOS Setups betreten. </br>Auto wechselt zu dem Modus, der zuletzt verwendet wurde. </br>
 
-### Speichern # Beenden
+### Speichern und Beenden
 
-  **Save # Exit Setup**: Drücken Sie (Enter) auf diesem Punkt und wählen Sie Ja. </br>Dadurch werden die Änderungen im CMOS gespeichert und das BIOS Setup Programm verlassen. </br>Wählen Sie Nein oder drücken Sie (Esc), um zum Hauptmenü des BIOS Setups zurückzukehren. </br>
-  **Exit Without Saving**: Drücken Sie (Enter) auf diesem Punkt und wählen Sie Ja. </br>Dadurch wird das BIOS Setup Programm ohne Speichern der vorgenommenen Änderungen im CMOS verlassen. </br>Wählen Sie Nein oder drücken Sie (Esc), um zum Hauptmenü des BIOS Setups zurückzukehren. </br>
-  **Load Optimized Defaults**: Drücken Sie (Enter) auf diesem Punkt und wählen Sie Ja, um die optimalen BIOS Standardeinstellungen zu laden. </br>Die BIOS Standardeinstellungen helfen dem System, im optimalen Zustand zu arbeiten. </br>Laden Sie immer die optimierten Standardeinstellungen nach dem Aktualisieren des BIOS oder nach dem Löschen der CMOS Werte. </br>
-  **Boot Override**: Ermöglicht es Ihnen, ein Gerät auszuwählen, von dem sofort gebootet werden soll. </br>Drücken Sie (Enter) auf dem ausgewählten Gerät und wählen Sie Ja zur Bestätigung. </br>Ihr System wird automatisch neu gestartet und von diesem Gerät gebootet. </br>
-  **Save Profiles**: Diese Funktion ermöglicht es Ihnen, die aktuellen BIOS Einstellungen in einem Profil zu speichern. </br>Sie können bis zu 8 Profile erstellen und als Setup Profil 1 bis Setup Profil 8 speichern. </br>Drücken Sie (Enter), um abzuschließen. </br>Oder Sie können "Datei auswählen in HDD/FDD/USB" auswählen, um das Profil auf Ihrem Speichermedium zu speichern. </br>
-  **Load Profiles**: Wenn Ihr System instabil wird und Sie die BIOS Standardeinstellungen geladen haben, können Sie diese Funktion verwenden, um die BIOS Einstellungen aus einem zuvor erstellten Profil zu laden, ohne die BIOS Einstellungen erneut konfigurieren zu müssen. </br>Wählen Sie zuerst das Profil aus, das Sie laden möchten, und drücken Sie dann (Enter), um abzuschließen. </br>Sie können "Datei auswählen in HDD/FDD/USB" wählen, um das zuvor erstellte Profil von Ihrem Speichermedium zu laden oder das Profil automatisch zu laden, das von dem BIOS erstellt wurde, z. </br>B. </br>das Zurücksetzen der BIOS Einstellungen auf die letzten Einstellungen, die ordnungsgemäß funktioniert haben (bekanntermaßen guter Zustand). </br>
+  **Save and Exit Setup**: Drücken Sie (Enter) auf diesem Punkt und wählen Sie Ja. </br>
+  Dadurch werden die Änderungen im CMOS gespeichert und das BIOS Setup Programm verlassen. </br>
+  Wählen Sie Nein oder drücken Sie (Esc), um zum Hauptmenü des BIOS Setups zurückzukehren.
+
+  **Exit Without Saving**: Drücken Sie (Enter) auf diesem Punkt und wählen Sie Ja. </br>  
+  Dadurch wird das BIOS Setup Programm ohne Speichern der vorgenommenen Änderungen im CMOS verlassen. </br>
+  Wählen Sie Nein oder drücken Sie (Esc), um zum Hauptmenü des BIOS Setups zurückzukehren.
+
+  **Load Optimized Defaults**: Drücken Sie (Enter) auf diesem Punkt und wählen Sie Ja, um die optimalen BIOS Standardeinstellungen zu laden. </br>
+  Die BIOS Standardeinstellungen helfen dem System, im optimalen Zustand zu arbeiten. </br>
+  Laden Sie immer die optimierten Standardeinstellungen nach dem Aktualisieren des BIOS oder nach dem Löschen der CMOS Werte.
+
+  **Boot Override**: Ermöglicht es Ihnen, ein Gerät auszuwählen, von dem sofort gebootet werden soll. </br>
+  Drücken Sie (Enter) auf dem ausgewählten Gerät und wählen Sie Ja zur Bestätigung. </br>
+  Ihr System wird automatisch neu gestartet und von diesem Gerät gebootet.
+
+  **Save Profiles**: Diese Funktion ermöglicht es Ihnen, die aktuellen BIOS Einstellungen in einem Profil zu speichern. </br>
+  Sie können bis zu 8 Profile erstellen und als Setup Profil 1 bis Setup Profil 8 speichern. </br>
+  Drücken Sie (Enter), um abzuschließen. </br>
+  Oder Sie können "Datei auswählen in HDD/FDD/USB" auswählen, um das Profil auf Ihrem Speichermedium zu speichern.
+
+  **Load Profiles**: Wenn Ihr System instabil wird und Sie die BIOS Standardeinstellungen geladen haben, können Sie diese Funktion verwenden, um die BIOS Einstellungen aus einem zuvor erstellten Profil zu laden, ohne die BIOS Einstellungen erneut konfigurieren zu müssen. </br>
+  Wählen Sie zuerst das Profil aus, das Sie laden möchten, und drücken Sie dann (Enter), um abzuschließen. </br>
+  Sie können "Datei auswählen in HDD/FDD/USB" wählen, um das zuvor erstellte Profil von Ihrem Speichermedium zu laden oder das Profil automatisch zu laden, </br>
+  das von dem BIOS erstellt wurde, z.B. das Zurücksetzen der BIOS Einstellungen auf die letzten Einstellungen, die ordnungsgemäß funktioniert haben (bekanntermaßen guter Zustand).
 
 ## Diverse Windows Funktionen
 
-* Festplatten von gpt oder mbr ändern. </br>
+### Festplattenpartitionierungen: GPT und MBR
 
-Bei der Installation von Windows 11 die Festplatten ändern. </br>
-Nach starten der Installations DVD die Umschalttaste und F10 drücken. </br>
-Es öffnet sich eine Konsole
-diskpart   startet Festplattentool
-list disk   listet Festplatten auf. </br>
-select disc 0 oder 1   je nachdem welche Festplatte ausgewählt werden soll. </br>
-clean   für löschen. </br>
-convert gpt oder mbr   je nachdem was benötigt wird. </br>
-// Dies muss für alle Festplatten einzeln gemacht werden, die geändert werden sollen oder müssen. </br>//
-exit   Ende und Konsolenfenster schließen. </br>
-Dann normal die Installation weitermachen. </br>
+#### Was ist MBR?
 
-## Prozessorlast Verteilung einstellen
+- **MBR (Master Boot Record)** ist ein älteres Partitionierungsschema, das seit den frühen PCs verwendet wird. Es hat einige Einschränkungen:
+  - Unterstützt bis zu vier primäre Partitionen.
+  - Maximale Partitionsgröße von 2 Terabyte (TB).
+  - Der MBR befindet sich am Anfang der Festplatte und enthält den Bootloader sowie die Partitionsinformationen.
 
-* Folgendes ist Windows ab 8. </br>1 geprüft
-* Windows Taste und R dann nacheinander eingeben
-cmd
-ab win 10 hier weiter machen
-msconfig
-* Im nächsten Fenster auswählen
-Start
-erweiterte Optionen
-* dann die ferfügbaren Core (Prozessorkerne) einstellen. </br>
+#### Was ist GPT?
 
----
+- **GPT (GUID Partition Table)** ist ein moderneres Partitionierungsschema, das die Einschränkungen von MBR überwindet:
+  - Unterstützt eine nahezu unbegrenzte Anzahl von Partitionen (Windows begrenzt es auf 128 Partitionen).
+  - Unterstützt Festplatten mit einer Größe von mehr als 2 Terabyte (TB).
+  - GPT speichert mehrere Kopien der Partitionsinformationen auf der Festplatte, um eine bessere Wiederherstellbarkeit bei Datenverlust zu gewährleisten.
+  - GPT verwendet eindeutige Identifikatoren (GUIDs) für jede Partition.
 
-Windows 10:
-Einstellungen
-System
-Netzbetrieb und Energiesparen
-Zusätzliche Energieeinstellungen
-Hinter Ausbalanciert "Energiesparplaneinstellungen ändern" auswählen
-Erweiterte Energieeinstellungen ändern
-Prozessorenenergieverwaltung
-"Minimaler Leistungszustand des Prozessors" auf "70%" stellen
+### Schritt-für-Schritt-Anleitung zur Änderung von Festplattenpartitionierungen:
 
----
+Um bei der Installation von Windows 11 die Festplatten von MBR zu GPT oder umgekehrt zu ändern:
+1. Starten Sie die Installations-DVD oder das Installationsmedium.
+2. Drücken Sie die Umschalttaste (Shift) und F10 gleichzeitig, um eine Konsole zu öffnen.
+3. Geben Sie `diskpart` ein, um das Festplattentool zu starten.
+4. Geben Sie `list disk` ein, um eine Liste der Festplatten anzuzeigen.
+5. Geben Sie `select disk 0` oder `select disk 1` ein, je nachdem, welche Festplatte ausgewählt werden soll.
+6. Geben Sie `clean` ein, um die ausgewählte Festplatte zu löschen.
+7. Geben Sie `convert gpt` oder `convert mbr` ein, je nachdem, welches Format benötigt wird.
+8. Wiederholen Sie diese Schritte für jede Festplatte, die geändert werden soll.
+9. Geben Sie `exit` ein, um die Konsole zu schließen.
 
-Windows 11:
-Suche nach:
-Energiesparplan bearbeiten
+Fahren Sie dann mit der normalen Installation von Windows fort.
 
-Dort suchen nach:
-Erweiterte Energieeinstellungen
+### Prozessorlast Verteilung einstellen
 
-Prozessorenenergieverwaltung
-"Minimaler Leistungszustand des Prozessors" auf "70%" stellen mindestens aber 51% um flüssig arbeiten zu können. </br>
+Um die Verteilung der Prozessorlast zu konfigurieren (ab Windows 8):
 
-## Passwort abschalten
+1. Drücken Sie die Windows-Taste und R, um das Ausführen-Fenster zu öffnen.
+2. Geben Sie `cmd` ein und drücken Sie Enter (für Windows 10 und höher fahren Sie hier fort mit Schritt 3).
+3. Geben Sie `msconfig` ein und drücken Sie Enter.
+4. Wählen Sie im nächsten Fenster den Reiter `Start` und dann `Erweiterte Optionen`.
+5. Stellen Sie die verfügbaren Prozessorkerne (Cores) ein.
 
-Drücken Sie auf Ihrer Tastatur gleichzeitig die Windows Taste und R. </br>
-netplwiz eingeben
-Benutzer müssen Benutzernamen und Kennwort eingeben: dort den Haken weg machen
+#### Windows 10
 
-Das funktioniert bei Windows 11 nicht. </br>
+1. Gehen Sie zu `Einstellungen` > `System` > `Netzbetrieb und Energiesparen`.
+2. Wählen Sie `Zusätzliche Energieeinstellungen`.
+3. Hinter dem Punkt `Ausbalanciert` wählen Sie `Energiesparplaneinstellungen ändern`.
+4. Wählen Sie `Erweiterte Energieeinstellungen ändern`.
+5. Navigieren Sie zu `Prozessorenenergieverwaltung`.
+6. Stellen Sie den `Minimalen Leistungszustand des Prozessors` auf `70%`.
 
-## Windows ab 8 ohne Datenverlust reparieren
+#### Windows 11
 
-* Windows Konsole starten als Administrator mit Win + X  - Eingabeaufforderung Administrator. </br>
-* Fehler suchen und Reparieren
-    sfc /scannow
-* Nur Fehler suchen
-    sfc /ferifyonly
+1. Suchen Sie nach `Energiesparplan bearbeiten`.
+2. Wählen Sie `Erweiterte Energieeinstellungen`.
+3. Navigieren Sie zu `Prozessorenenergieverwaltung`.
+4. Stellen Sie den `Minimalen Leistungszustand des Prozessors` auf mindestens `51%`, um flüssig arbeiten zu können, idealerweise auf `70%`.
 
-## Image auf Komponentenspeicherbeschädigungen durchsuchen und Reparieren
+### Passwort abschalten
 
-* Windows Konsole starten als Administrator mit Win + X  - Eingabeaufforderung Administrator. </br>
+Um das Passwort beim Anmelden zu deaktivieren:
 
-## auf Komponentenspeicherbeschädigungen durchsuchen
+1. Drücken Sie gleichzeitig die Windows-Taste und R.
+2. Geben Sie `netplwiz` ein und drücken Sie Enter.
+3. Entfernen Sie den Haken bei `Benutzer müssen Benutzernamen und Kennwort eingeben`.
 
-Dism /Online /Cleanup Image /ScanHealth
+*Hinweis: Dies funktioniert nicht bei Windows 11.*
 
-## Image reparieren
+### Windows ab Version 8 ohne Datenverlust reparieren
 
-Dism /Online /Cleanup Image / RestoreHealth
+1. Starten Sie die Windows-Konsole als Administrator mit `Win + X` und wählen Sie `Eingabeaufforderung (Administrator)`.
+2. Um Fehler zu suchen und zu reparieren, geben Sie `sfc /scannow` ein.
+3. Um nur nach Fehlern zu suchen, geben Sie `sfc /verifyonly` ein.
 
-## Record Image Recimg Befehlsübersicht mit
+### Image auf Komponentenspeicherbeschädigungen durchsuchen und reparieren
 
+1. Starten Sie die Windows-Konsole als Administrator mit `Win + X` und wählen Sie `Eingabeaufforderung (Administrator)`.
+
+#### Komponentenspeicherbeschädigungen durchsuchen
+
+```bash
+Dism /Online /Cleanup-Image /ScanHealth
+```
+
+#### Image reparieren
+
+```bash
+Dism /Online /Cleanup-Image /RestoreHealth
+```
+
+### Record Image Recimg Befehlsübersicht
+
+Um die Befehlsübersicht für Record Image zu erhalten:
+```bash
 recimg /?
+```
 
-## Image erstellen
+### Image erstellen
 
-recimg  /createimage d:\Refresh ; (Anstatt d:\Refresh kann auch anderer Ordnername gewählt werden)
+Um ein Image zu erstellen, verwenden Sie den folgenden Befehl:
+```bash
+recimg /createimage d:\Refresh
+```
+
+*Sie können auch einen anderen Ordnernamen anstelle von `d:\Refresh` wählen.*
