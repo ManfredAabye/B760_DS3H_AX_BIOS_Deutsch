@@ -257,9 +257,9 @@ Aktiviert oder deaktiviert die CPU Energiesparfunktionen. </br>
 
 Ermöglicht es Ihnen festzulegen, ob die Intel® CPU Turbo Boost Technologie aktiviert werden soll. </br>Auto lässt das BIOS diese Einstellung automatisch konfigurieren. </br>
 
-### Intel(R) Turbo Boost Max Technology 3. </br>0
+### Intel(R) Turbo Boost Max Technology 3.0
 
-Aktiviert oder deaktiviert die Intel® Turbo Boost Max Technology 3. </br>0. </br>Intel® Turbo Boost Max Technology 3. </br>0 ermöglicht es dem System, den besten Leistungskern des Prozessors zu identifizieren und ermöglicht es Ihnen, die kritischsten Arbeitslasten manuell darauf zu richten. </br>Sie können sogar die Frequenz jedes Kerns einzeln anpassen, um die Leistung zu optimieren. </br>
+Aktiviert oder deaktiviert die Intel® Turbo Boost Max Technology 3.0. </br>Intel® Turbo Boost Max Technology 3.0 ermöglicht es dem System, den besten Leistungskern des Prozessors zu identifizieren und ermöglicht es Ihnen, die kritischsten Arbeitslasten manuell darauf zu richten. </br>Sie können sogar die Frequenz jedes Kerns einzeln anpassen, um die Leistung zu optimieren. </br>
 
 ## Erweiterte CPU Einstellungen
 
@@ -380,72 +380,94 @@ Aktiviert oder deaktiviert die Intel® CPU Enhanced Halt (C1E) Funktion, eine CP
 
 ### C6/C7 Zustandsunterstützung
 
-Ermöglicht es Ihnen festzulegen, ob die CPU im System Halt Zustand in den C6/C7 Modus wechseln soll. </br>Wenn aktiviert, werden die CPU Kernfrequenz und die Spannung im System Halt Zustand reduziert, um den Stromverbrauch zu senken. </br>Der C6/C7 Zustand ist ein weiter entwickelter Energiesparzustand als C3. </br>Auto lässt das BIOS diese Einstellung automatisch konfigurieren. </br>Dieser Punkt ist nur konfigurierbar, wenn die C States Steuerung auf aktiviert gesetzt ist. </br>
+Ermöglicht es Ihnen festzulegen, ob die CPU im System Halt Zustand in den C6/C7 Modus wechseln soll. </br>
+Wenn aktiviert, werden die CPU Kernfrequenz und die Spannung im System Halt Zustand reduziert, um den Stromverbrauch zu senken. </br>
+Der C6/C7 Zustand ist ein weiter entwickelter Energiesparzustand als C3. </br>
+Auto lässt das BIOS diese Einstellung automatisch konfigurieren. </br>
+Dieser Punkt ist nur konfigurierbar, wenn die C States Steuerung auf aktiviert gesetzt ist.
 
 ### C8 Zustandsunterstützung
 
-Ermöglicht es Ihnen festzulegen, ob die CPU im System Halt Zustand in den C8 Modus wechseln soll. </br>Wenn aktiviert, werden die CPU Kernfrequenz und die Spannung im System Halt Zustand reduziert, um den Stromverbrauch zu senken. </br>Der C8 Zustand ist ein weiter entwickelter Energiesparzustand als C6/C7. </br>Auto lässt das BIOS diese Einstellung automatisch konfigurieren. </br>Dieser Punkt ist nur konfigurierbar, wenn die C States Steuerung auf aktiviert gesetzt ist. </br>
+Ermöglicht es Ihnen festzulegen, ob die CPU im System Halt Zustand in den C8 Modus wechseln soll. </br>
+Wenn aktiviert, werden die CPU Kernfrequenz und die Spannung im System Halt Zustand reduziert, um den Stromverbrauch zu senken. </br>
+Der C8 Zustand ist ein weiter entwickelter Energiesparzustand als C6/C7. </br>
+Auto lässt das BIOS diese Einstellung automatisch konfigurieren. </br>
+Dieser Punkt ist nur konfigurierbar, wenn die C States Steuerung auf aktiviert gesetzt ist.
 
 ### C10 Zustandsunterstützung
 
-Ermöglicht es Ihnen festzulegen, ob die CPU im System Halt Zustand in den C10 Modus wechseln soll. </br>Wenn aktiviert, werden die CPU Kernfrequenz und die Spannung im System Halt Zustand reduziert, um den Stromverbrauch zu senken. </br>Der C10 Zustand ist ein weiter entwickelter Energiesparzustand als C8. </br>Auto lässt das BIOS diese Einstellung automatisch konfigurieren. </br>Dieser Punkt ist nur konfigurierbar, wenn die C States Steuerung auf aktiviert gesetzt ist. </br>
+Ermöglicht es Ihnen festzulegen, ob die CPU im System Halt Zustand in den C10 Modus wechseln soll. </br>
+Wenn aktiviert, werden die CPU Kernfrequenz und die Spannung im System Halt Zustand reduziert, um den Stromverbrauch zu senken. </br>
+Der C10 Zustand ist ein weiter entwickelter Energiesparzustand als C8. </br>Auto lässt das BIOS diese Einstellung automatisch konfigurieren. </br>
+Dieser Punkt ist nur konfigurierbar, wenn die C States Steuerung auf aktiviert gesetzt ist.
 
 ### Paket C Zustandsgrenze
 
-Ermöglicht es Ihnen, die C Zustandsgrenze für den Prozessor festzulegen. </br>Auto lässt das BIOS diese Einstellung automatisch konfigurieren. </br>Dieser Punkt ist nur konfigurierbar, wenn die C States Steuerung auf aktiviert gesetzt ist. </br>
+Ermöglicht es Ihnen, die C Zustandsgrenze für den Prozessor festzulegen. </br>
+Auto lässt das BIOS diese Einstellung automatisch konfigurieren. </br>
+Dieser Punkt ist nur konfigurierbar, wenn die C States Steuerung auf aktiviert gesetzt ist.
 
 ### Turbo Leistungsgrenzen
 
-Ermöglicht es Ihnen, eine Leistungsgrenze für den CPU Turbo Modus festzulegen. </br>Wenn der CPU Stromverbrauch die festgelegte Leistungsgrenze überschreitet, reduziert die CPU automatisch die Kernfrequenz, um die Leistung zu senken. </br>Auto setzt die aktuelle Grenze entsprechend den CPU Spezifikationen. </br>
+Ermöglicht es Ihnen, eine Leistungsgrenze für den CPU Turbo Modus festzulegen. </br>
+Wenn der CPU Stromverbrauch die festgelegte Leistungsgrenze überschreitet, reduziert die CPU automatisch die Kernfrequenz, um die Leistung zu senken. </br>
+Auto setzt die aktuelle Grenze entsprechend den CPU Spezifikationen.
 
 ### Leistungsgrenze TDP (Watt) / Leistungszeit
 
-Ermöglicht es Ihnen, die Leistungsgrenze für den CPU/Plattform/Speicher Turbo Modus festzulegen und wie lange es dauert, um bei der festgelegten Leistungsgrenze zu arbeiten. </br>Auto setzt die Leistungsgrenze entsprechend den CPU Spezifikationen. </br>Dieser Punkt ist nur konfigurierbar, wenn Turbo Leistungsgrenzen auf aktiviert gesetzt sind. </br>
+Ermöglicht es Ihnen, die Leistungsgrenze für den CPU/Plattform/Speicher Turbo Modus festzulegen und wie lange es dauert, um bei der festgelegten Leistungsgrenze zu arbeiten. </br>
+Auto setzt die Leistungsgrenze entsprechend den CPU Spezifikationen. </br>
+Dieser Punkt ist nur konfigurierbar, wenn Turbo Leistungsgrenzen auf aktiviert gesetzt sind.
 
 ### Kernstromgrenze (Ampere)
 
-Ermöglicht es Ihnen, eine Stromgrenze für den CPU Turbo Modus festzulegen. </br>Wenn der CPU Strom die festgelegte Stromgrenze überschreitet, reduziert die CPU automatisch die Kernfrequenz, um den Strom zu senken. </br>Auto setzt die Stromgrenze entsprechend den CPU Spezifikationen. </br>Dieser Punkt ist nur konfigurierbar, wenn Turbo Leistungsgrenzen auf aktiviert gesetzt sind. </br>
+Ermöglicht es Ihnen, eine Stromgrenze für den CPU Turbo Modus festzulegen. </br>
+Wenn der CPU Strom die festgelegte Stromgrenze überschreitet, reduziert die CPU automatisch die Kernfrequenz, um den Strom zu senken. </br>
+Auto setzt die Stromgrenze entsprechend den CPU Spezifikationen. </br>
+Dieser Punkt ist nur konfigurierbar, wenn Turbo Leistungsgrenzen auf aktiviert gesetzt sind.
 
 ### Turbo Per Core Limit Control
 
-Ermöglicht es Ihnen, die Grenze für jeden CPU Kern separat zu steuern. </br>
+Ermöglicht es Ihnen, die Grenze für jeden CPU Kern separat zu steuern.
 
 ### DDR5 Auto Booster
 
 Aktiviert oder deaktiviert die DDR5 Dynamic Turbo Boost Funktion, die ein automatisches Umschalten zwischen Standardfrequenz und erhöhter Frequenz ermöglicht. </br>
-Auto lässt das BIOS diese Einstellung automatisch konfigurieren. </br>
+Auto lässt das BIOS diese Einstellung automatisch konfigurieren.
 
 ### DDR5 XMP Booster
 
-Ermöglicht es Ihnen, zwischen Profilen zu wählen, die für bestimmte Speicher IC Hersteller erstellt wurden, um die Speicherleistung zu verbessern. </br>
+Ermöglicht es Ihnen, zwischen Profilen zu wählen, die für bestimmte Speicher IC Hersteller erstellt wurden, um die Speicherleistung zu verbessern.
 
 ### Extreme Memory Profile (X.M.P.)
 
-Ermöglicht es dem BIOS, die SPD Daten des installierten XMP Speichermoduls zu lesen, um die Speicherleistung zu verbessern, wenn aktiviert. </br>
+Ermöglicht es dem BIOS, die SPD Daten des installierten XMP Speichermoduls zu lesen, um die Speicherleistung zu verbessern, wenn aktiviert.
 
 ### Deaktiviert
 
-Deaktiviert diese Funktion. </br>
+Deaktiviert diese Funktion.
 
 ### Profil 1
 
-Verwendet die Einstellungen von Profil 1. </br>
+Verwendet die Einstellungen von Profil 1.
 
 ### Profil 2
 
-Verwendet die Einstellungen von Profil 2. </br>(Nur verfügbar, wenn ein Speicher Modul installiert ist, das diese Funktion unterstützt. )
+Verwendet die Einstellungen von Profil 2. </br>
+( Nur verfügbar, wenn ein Speicher Modul installiert ist, das diese Funktion unterstützt. )
 
 ### System Memory Multiplier
 
-Ermöglicht es Ihnen, den System Speicher Multiplikator festzulegen. </br>Auto setzt den Speicher Multiplikator entsprechend den SPD Daten des Speichers. </br>
+Ermöglicht es Ihnen, den System Speicher Multiplikator festzulegen. </br>
+Auto setzt den Speicher Multiplikator entsprechend den SPD Daten des Speichers.
 
 ### Memory Ref Clock
 
-Ermöglicht es Ihnen, den Referenztakt des Speichers manuell anzupassen. </br>
+Ermöglicht es Ihnen, den Referenztakt des Speichers manuell anzupassen.
 
 ### Gear Mode
 
-Ermöglicht es Ihnen, das maximale OC Frequenzpotenzial zu verbessern. </br>
+Ermöglicht es Ihnen, das maximale OC Frequenzpotenzial zu verbessern.
 
 ### Memory Boot Mode
 
