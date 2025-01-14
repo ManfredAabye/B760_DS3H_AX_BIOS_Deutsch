@@ -265,51 +265,64 @@ Aktiviert oder deaktiviert die Intel® Turbo Boost Max Technology 3. </br>0. </b
 
 ### CPU Flex Ratio Override
 
-Aktiviert oder deaktiviert das CPU Flex Ratio. </br>
+Diese Einstellung ermöglicht es Ihnen, das CPU Flex Ratio (flexibles Verhältnis der Taktfrequenz) zu aktivieren oder zu deaktivieren. Wenn aktiviert, können Sie das Taktverhältnis der CPU manuell anpassen.
 
 ### CPU Flex Ratio Einstellungen
 
-Ermöglicht es Ihnen, das CPU Flex Ratio festzulegen. </br>Der einstellbare Bereich kann je nach CPU variieren. </br>
+Hier können Sie das CPU Flex Ratio festlegen. Der einstellbare Bereich kann je nach CPU-Modell variieren. Diese Einstellung gibt Ihnen mehr Kontrolle über die Taktfrequenz der CPU, was nützlich sein kann, um die Leistung zu optimieren.
 
-### Frequency TVB
+### Frequency TVB (Thermal Velocity Boost)
 
-Ermöglicht es Ihnen, die automatische CPU Frequenzreduzierung, die durch Thermal Velocity Boost initiiert wird, zu aktivieren oder zu deaktivieren. </br>
+Diese Einstellung ermöglicht es Ihnen, die automatische Reduzierung der CPU-Frequenz zu aktivieren oder zu deaktivieren, die durch Thermal Velocity Boost (TVB) initiiert wird. </br>
+TVB erhöht temporär die Taktfrequenz der CPU, solange die Temperatur unter einem bestimmten Schwellenwert bleibt.
 
-### Enhanced TVB
+### Enhanced TVB (Thermal Velocity Boost)
 
-Aktiviert oder deaktiviert die erweiterte Thermal Velocity Boost (TVB) Funktion. </br>Auto lässt das BIOS diese Einstellung automatisch konfigurieren. </br>
+Mit dieser Einstellung können Sie die erweiterte TVB-Funktion aktivieren oder deaktivieren. </br>
+Wenn auf "Auto" gesetzt, konfiguriert das BIOS diese Einstellung automatisch. </br>
+Enhanced TVB kann die CPU-Leistung weiter optimieren, indem die Taktfrequenz dynamisch angepasst wird.
 
 ### Voltage Reduction Initiated TVB
 
-Ermöglicht es Ihnen, die automatische CPU Spannungsreduzierung, die durch Thermal Velocity Boost initiiert wird, zu aktivieren oder zu deaktivieren. </br>Auto lässt das BIOS diese Einstellung automatisch konfigurieren. </br>
+Diese Einstellung ermöglicht es Ihnen, die automatische Spannungsreduzierung der CPU zu aktivieren oder zu deaktivieren, die durch TVB initiiert wird. </br>
+Auch hier lässt die Auto-Einstellung das BIOS diese Konfiguration automatisch vornehmen. </br>
+Eine geringere Spannung kann helfen, die CPU-Temperatur zu kontrollieren.
 
 ### IA CEP (Current Excursion Protection)
 
-Ermöglicht es Ihnen, IA CEP zu aktivieren oder zu deaktivieren. </br>
+Mit dieser Einstellung können Sie den IA CEP aktivieren oder deaktivieren. </br>
+IA CEP schützt die CPU vor übermäßigen Stromspitzen, die die Stabilität und Leistung beeinträchtigen könnten.
 
 ### GT CEP (Current Excursion Protection)
 
-Ermöglicht es Ihnen, GT CEP zu aktivieren oder zu deaktivieren. </br>
+Diese Einstellung ermöglicht es Ihnen, den GT CEP zu aktivieren oder zu deaktivieren. </br>
+Ähnlich wie IA CEP schützt GT CEP den Grafikkern der CPU vor übermäßigen Stromspitzen.
 
-### Fll OC Mode
+### FLL OC Mode (Flexible Low Latency OverClocking Mode)
 
-Ermöglicht es Ihnen, den FLL Modus auszuwählen. </br>
+Mit dieser Einstellung können Sie den FLL-Modus auswählen. </br>
+Dieser Modus kann helfen, die Latenzzeiten bei Übertaktung der CPU zu reduzieren und somit die Gesamtleistung zu verbessern.
 
 ### Legacy Game Compatibility Mode
 
-Ermöglicht es Ihnen, den Legacy Game Compatibility Mode zu aktivieren, um die Funktionalität älterer Spiele zu verbessern. </br>
+Diese Einstellung ermöglicht es Ihnen, den Legacy Game Compatibility Mode zu aktivieren, um die Funktionalität älterer Spiele zu verbessern. </br>
+Dies kann nützlich sein, wenn Sie ältere Spiele ausführen möchten, die möglicherweise Kompatibilitätsprobleme mit modernen CPU-Architekturen haben.
 
 ### Core VR Fast Vmode
 
-Aktiviert oder deaktiviert den Core Fast V Mode. </br>
+Mit dieser Einstellung können Sie den Core Fast V Mode aktivieren oder deaktivieren. </br>
+Dieser Modus optimiert die Spannungsregelung, um eine höhere Leistung bei geringerem Energieverbrauch zu erzielen.
 
 ### Unterspannungsschutz
 
-Aktiviert oder deaktiviert die Unterspannungsschutzfunktion. </br>
+Diese Einstellung aktiviert oder deaktiviert die Unterspannungsschutzfunktion. </br>
+Der Unterspannungsschutz verhindert, dass die CPU-Spannung zu stark absinkt, was die Stabilität des Systems beeinträchtigen könnte.
 
 ## AVX Einstellungen
 
-**Advanced Vector Extensions (AVX)** sind Erweiterungen der x86-Befehlssätze, die speziell entwickelt wurden, um die Leistung von Anwendungen zu verbessern, die intensive Rechenaufgaben ausführen. </br> Dazu gehören wissenschaftliche Berechnungen, 3D-Modellierung, Video-Rendering und andere datenintensive Aufgaben. </br> AVX ermöglicht es Prozessoren, gleichzeitig mit mehreren Datenpunkten zu arbeiten, was zu erheblichen Leistungssteigerungen führt. </br>
+**Advanced Vector Extensions (AVX)** sind Erweiterungen der x86-Befehlssätze, die speziell entwickelt wurden, um die Leistung von Anwendungen zu verbessern, die intensive Rechenaufgaben ausführen. </br>
+Dazu gehören wissenschaftliche Berechnungen, 3D-Modellierung, Video-Rendering und andere datenintensive Aufgaben. </br>
+AVX ermöglicht es Prozessoren, gleichzeitig mit mehreren Datenpunkten zu arbeiten, was zu erheblichen Leistungssteigerungen führt. </br>
 
 ### Konfiguration der AVX-Einstellungen im BIOS
 
