@@ -4,12 +4,18 @@
 • Einige BIOS Einstellungen sind nur verfügbar, wenn der verwendete Chipsatz des Motherboards und die CPU/der Speicher diese Funktion unterstützen.Weitere Informationen zu den einzigartigen Funktionen von Intel® CPUs finden Sie auf der Intel Website.
 
 BIOS (Basic Input and Output System) speichert Hardware Parameter des Systems im CMOS auf dem Motherboard.Zu seinen Hauptfunktionen gehören die Durchführung des Power On Self Test (POST) beim Systemstart, das Speichern von Systemparametern und das Laden des Betriebssystems usw.BIOS enthält ein BIOS Einrichtungsprogramm, das es dem Benutzer ermöglicht, grundlegende Systemeinstellungen zu ändern oder bestimmte Systemfunktionen zu aktivieren.
+
 Wenn der Strom ausgeschaltet ist, liefert die Batterie auf dem Motherboard die notwendige Energie, um die Konfigurationswerte im CMOS zu halten.
+
 Um das BIOS Einrichtungsprogramm aufzurufen, drücken Sie während des POST beim Einschalten die Taste (Entf) (Delete).
+
 Zum Aktualisieren des BIOS verwenden Sie entweder das GIGABYTE Q Flash  oder Q Flash Plus Dienstprogramm.
+
 • Q Flash ermöglicht es dem Benutzer, das BIOS schnell und einfach zu aktualisieren oder zu sichern, ohne das Betriebssystem zu betreten.
 • Q Flash Plus ermöglicht es Ihnen, das BIOS zu aktualisieren, wenn Ihr System ausgeschaltet ist (S5 Abschaltzustand).Speichern Sie das neueste BIOS auf einem USB Stick und stecken Sie ihn in den dafür vorgesehenen Anschluss.Sie können dann das BIOS automatisch durch einfaches Drücken der Q Flash Plus Taste flashen.
+
 Anweisungen zur Verwendung der Q Flash  und Q Flash Plus Dienstprogramme finden Sie auf der Seite "Einzigartige Funktionen" der GIGABYTE Website und suchen Sie nach "BIOS Update Utilities".
+
 • Da das Flashen des BIOS potenziell riskant ist, wird empfohlen, das BIOS nicht zu flashen, wenn Sie keine Probleme mit der aktuellen Version des BIOS haben.Wenn Sie das BIOS flashen, tun Sie dies mit Vorsicht.Unzureichendes BIOS Flashen kann zu Fehlfunktionen des Systems führen.
 • Es wird empfohlen, die Standardeinstellungen nicht zu ändern (es sei denn, dies ist notwendig), um Systeminstabilität oder andere unerwartete Ergebnisse zu vermeiden.Das unzureichende Ändern der Einstellungen kann dazu führen, dass das System nicht startet.Wenn dies auftritt, versuchen Sie, die CMOS Werte zu löschen und das Board auf die Standardwerte zurückzusetzen.
 • Informationen zum Löschen der CMOS Werte und zum Zurücksetzen des Boards auf die Standardwerte finden Sie in der Bedienungsanleitung zum Batterie /CMOS Jumper oder zur Schaltfläche oder im Abschnitt "Optimierte Standardeinstellungen laden".
@@ -20,49 +26,64 @@ Anweisungen zur Verwendung der Q Flash  und Q Flash Plus Dienstprogramme finden 
 
 Der folgende Startbildschirm mit dem Logo erscheint, wenn der Computer hochfährt.(Der Bildschirm kann je nach Motherboard variieren.)
 Funktionstasten:
-(DEL): BIOS SETUP\Q FLASH
+
+* (DEL): BIOS SETUP\Q FLASH
 Drücken Sie die (Entf) Taste, um das BIOS Setup aufzurufen oder um das Q Flash Dienstprogramm im BIOS Setup aufzurufen.
-(F12): BOOT MENÜ
-Das Boot Menü ermöglicht es Ihnen, das erste Boot Gerät ohne den Aufruf des BIOS Setup einzustellen.Verwenden Sie im Boot Menü die Pfeiltasten (h) oder (i), um das erste Boot Gerät auszuwählen, und drücken Sie dann (Enter), um zu bestätigen.Das System startet sofort von diesem Gerät.
+
+* (F12): BOOT MENÜ
+Das Boot Menü ermöglicht es Ihnen, das erste Boot Gerät ohne den Aufruf des BIOS Setup einzustellen.Verwenden Sie im Boot Menü die Pfeiltasten (h) oder (i), um das erste Boot Gerät auszuwählen, und drücken Sie dann 
+
+* (Enter), um zu bestätigen.Das System startet sofort von diesem Gerät.
 Hinweis: Die Einstellung im Boot Menü ist nur einmalig wirksam.Nach dem Neustart des Systems basiert die Gerätebootreihenfolge weiterhin auf den BIOS Setup Einstellungen.
-(END): Q FLASH
+
+* (END): Q FLASH
 Drücken Sie die (Ende) Taste, um direkt auf das Q Flash Dienstprogramm zuzugreifen, ohne zuerst das BIOS Setup aufzurufen.
 
 ## Funktionstasten
 
-Das Hauptmenü
-Erweiterter Modus
+* Das Hauptmenü
+
+* Erweiterter Modus
+
 Der erweiterte Modus bietet detaillierte BIOS Einstellungen.Sie können die Pfeiltasten auf Ihrer Tastatur verwenden, um zwischen den Punkten zu wechseln, und drücken Sie (Enter), um zu bestätigen oder ein Untermenü aufzurufen.Oder Sie können Ihre Maus verwenden, um den gewünschten Punkt auszuwählen.
-Hardware Informationen
-Optionen Beschreibung Aktuelle Einstellungen
-Einrichtungsmenüs
-Konfigurationselemente
-Systemzeit
+
+* Hardware Informationen
+
+* Optionen Beschreibung Aktuelle Einstellungen
+
+* Einrichtungsmenüs
+
+* Konfigurationselemente
+
+* Systemzeit
+
 Die Schnellzugriffsleiste ermöglicht es Ihnen, schnell zu den Bildschirmen Allgemeine Hilfe, Einfache Modus, Smart Fan 6 oder Q Flash zu wechseln.
 
 ## Erweiterter Modus Funktionstasten
 
-(f)(g) Bewegen Sie die Auswahlleiste, um ein Einrichtungsmenü auszuwählen.
-(h)(i) Bewegen Sie die Auswahlleiste, um ein Konfigurationselement in einem Menü auszuwählen.
-(Enter)/Doppelklick Befehl ausführen oder Menü aufrufen
-(+)/(Seite hoch) Erhöhen Sie den numerischen Wert oder ändern Sie ihn.
-( )/(Seite runter) Verringern Sie den numerischen Wert oder ändern Sie ihn.
-(F1) Zeigt Beschreibungen der Funktionstasten an.
-(F2) Wechseln zum einfachen Modus.
-(F3) Speichern Sie die aktuellen BIOS Einstellungen in einem Profil.
-(F4) Laden Sie die BIOS Einstellungen aus einem zuvor erstellten Profil.
-(F5) Stellen Sie die vorherigen BIOS Einstellungen für die aktuellen Untermenüs wieder her.
-(F6) Zeigt den Smart Fan 6 Bildschirm an.
-(F7) Laden Sie die optimierten BIOS Standardwerte für die aktuellen Untermenüs.
-(F8) Zugriff auf das Q Flash Dienstprogramm.
-(F10) Speichern Sie alle Änderungen und beenden Sie das BIOS Setup Programm.
-(F11) Wechseln Sie zum Favoriten Untermenü.
-(F12) Erfassen Sie den aktuellen Bildschirm als Bild und speichern Sie es auf Ihrem USB Laufwerk.
-(Einf) Fügen Sie eine Favoritenoption hinzu oder entfernen Sie sie.
-(Strg)+(S) Zeigt Informationen zum installierten Speicher an.
-(Esc) Hauptmenü: Beenden Sie das BIOS Setup Programm.
+* (f)(g) Bewegen Sie die Auswahlleiste, um ein Einrichtungsmenü auszuwählen.
+* (h)(i) Bewegen Sie die Auswahlleiste, um ein Konfigurationselement in einem Menü auszuwählen.
+* (Enter)/Doppelklick Befehl ausführen oder Menü aufrufen
+* (+)/(Seite hoch) Erhöhen Sie den numerischen Wert oder ändern Sie ihn.
+* ( )/(Seite runter) Verringern Sie den numerischen Wert oder ändern Sie ihn.
+* (F1) Zeigt Beschreibungen der Funktionstasten an.
+* (F2) Wechseln zum einfachen Modus.
+* (F3) Speichern Sie die aktuellen BIOS Einstellungen in einem Profil.
+* (F4) Laden Sie die BIOS Einstellungen aus einem zuvor erstellten Profil.
+* (F5) Stellen Sie die vorherigen BIOS Einstellungen für die aktuellen Untermenüs wieder her.
+* (F6) Zeigt den Smart Fan 6 Bildschirm an.
+* (F7) Laden Sie die optimierten BIOS Standardwerte für die aktuellen Untermenüs.
+* (F8) Zugriff auf das Q Flash Dienstprogramm.
+* (F10) Speichern Sie alle Änderungen und beenden Sie das BIOS Setup Programm.
+* (F11) Wechseln Sie zum Favoriten Untermenü.
+* (F12) Erfassen Sie den aktuellen Bildschirm als Bild und speichern Sie es auf Ihrem USB Laufwerk.
+* (Einf) Fügen Sie eine Favoritenoption hinzu oder entfernen Sie sie.
+* (Strg)+(S) Zeigt Informationen zum installierten Speicher an.
+* (Esc) Hauptmenü: Beenden Sie das BIOS Setup Programm.
+
 Untermenüs: Beenden Sie das aktuelle Untermenü.
-(Alt)+(F) Geben Sie Schlüsselwörter ein, um das gesuchte BIOS Konfigurationselement zu finden.
+
+* (Alt)+(F) Geben Sie Schlüsselwörter ein, um das gesuchte BIOS Konfigurationselement zu finden.
 
 ## Einfache Modus
 
