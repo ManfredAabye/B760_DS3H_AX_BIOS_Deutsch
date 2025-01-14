@@ -1,4 +1,4 @@
-# B760_DS3H_AX BIOS Deutsch
+# Gigabyte B760_DS3H_AX DDR5 BIOS Deutsch
 
 **Achtung: Das Benutzen dieser Anleitung geschieht auf eigene Gefahr!!!!!**
 
@@ -7,7 +7,7 @@
 
 BIOS (Basic Input and Output System) speichert Hardware Parameter des Systems im CMOS auf dem Motherboard. </br>Zu seinen Hauptfunktionen gehören die Durchführung des Power On Self Test (POST) beim Systemstart, das Speichern von Systemparametern und das Laden des Betriebssystems usw. </br>BIOS enthält ein BIOS Einrichtungsprogramm, das es dem Benutzer ermöglicht, grundlegende Systemeinstellungen zu ändern oder bestimmte Systemfunktionen zu aktivieren. </br>
 
-Wenn der Strom ausgeschaltet ist, liefert die Batterie auf dem Motherboard die notwendige Energie, um die Konfigurationswerte im CMOS zu halten. </br>
+Wenn der Strom ausgeschaltet ist, liefert die Batterie auf dem Motherboard die notwendige Energie (meist eine CR2032 Knopfzelle), um die Konfigurationswerte im CMOS zu halten. </br>
 
 Um das BIOS Einrichtungsprogramm aufzurufen, drücken Sie während des POST beim Einschalten die Taste (Entf) (Delete). </br>
 
@@ -43,21 +43,37 @@ Drücken Sie die (Ende) Taste, um direkt auf das Q Flash Dienstprogramm zuzugrei
 
 ## Funktionstasten
 
-* Das Hauptmenü
+### Hauptmenü
 
-* Erweiterter Modus
+Das Hauptmenü ist der Einstiegsbereich des BIOS, von dem aus Sie verschiedene Konfigurationen und Einstellungen vornehmen können.
 
-Der erweiterte Modus bietet detaillierte BIOS Einstellungen. </br>Sie können die Pfeiltasten auf Ihrer Tastatur verwenden, um zwischen den Punkten zu wechseln, und drücken Sie (Enter), um zu bestätigen oder ein Untermenü aufzurufen. </br>Oder Sie können Ihre Maus verwenden, um den gewünschten Punkt auszuwählen. </br>
+### Erweiterter Modus
 
-* Hardware Informationen
+Der erweiterte Modus bietet detaillierte BIOS-Einstellungen, die Ihnen erlauben, fortgeschrittene Konfigurationen vorzunehmen. Hier sind die Möglichkeiten, wie Sie den erweiterten Modus nutzen können:
 
-* Optionen Beschreibung Aktuelle Einstellungen
+**Pfeiltasten**: Verwenden Sie die Pfeiltasten auf Ihrer Tastatur, um zwischen den verschiedenen Punkten im erweiterten Modus zu navigieren. </br>
+**Enter-Taste**: Drücken Sie die Enter-Taste, um eine Einstellung zu bestätigen oder ein Untermenü aufzurufen. </br>
+**Maus**: Sie können auch Ihre Maus verwenden, um den gewünschten Punkt im erweiterten Modus auszuwählen. </br>
 
-* Einrichtungsmenüs
+### Hardware Informationen
 
-* Konfigurationselemente
+Dieser Bereich zeigt detaillierte Informationen über die Hardware Ihres Systems, wie z.B. die CPU, den RAM, die Grafikkarte und andere Komponenten. </br>
 
-* Systemzeit
+### Optionen Beschreibung Aktuelle Einstellungen
+
+Hier finden Sie eine Liste der verfügbaren Optionen im erweiterten Modus, zusammen mit einer kurzen Beschreibung und den aktuellen Einstellungen. </br>
+
+### Einrichtungsmenüs
+
+Dieser Bereich enthält verschiedene Menüs, die spezifische Konfigurationen und Einstellungen ermöglichen. </br>
+
+### Konfigurationselemente
+
+Hier können Sie spezifische Hardware- und Systemeinstellungen konfigurieren, wie z.B. die Systemzeit, die CPU-Einstellungen und die Speicherparameter. </br>
+
+### Systemzeit
+
+Diese Einstellung ermöglicht es Ihnen, die Systemzeit und das Datum zu konfigurieren, die vom BIOS gespeichert und verwendet werden, um die Uhrzeit und das Datum im System korrekt anzuzeigen. </br>
 
 Die Schnellzugriffsleiste ermöglicht es Ihnen, schnell zu den Bildschirmen Allgemeine Hilfe, Einfache Modus, Smart Fan 6 oder Q Flash zu wechseln. </br>
 
